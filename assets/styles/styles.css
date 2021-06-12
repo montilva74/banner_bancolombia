@@ -1,0 +1,88 @@
+@font-face {
+    font-family: "Bancolombia Bold";
+    src: url("../fonts/CIBFontSans-Bold.ttf");
+}
+
+@font-face {
+    font-family: "Bancolombia Light";
+    src: url("../fonts/CIBFontSans-Light.ttf");
+}
+
+body {
+    font-family: "Bancolombia Light";
+}
+
+h1 {
+    font-size: 28px;
+    color: #2C2A29;
+    padding-top: 20px;
+}
+
+h2 {
+    font-family: "Bancolombia Bold";
+}
+
+h3 {
+    font-family: "Open Sans";
+}
+
+.card-img {
+    height: 230px;
+    object-fit: cover;
+}
+
+.card-text{
+    height: 200px;
+    padding: 20px;
+    font-family: "Open Sans";
+}
+
+.main-card .card-text,
+.main-card .card-link{
+    background-color: #F5B6CD;
+}
+
+.main-card h2 {
+    font-size: 28px;
+}
+
+.main-card h3 {
+    font-size: 14px;
+}
+
+.sec-card .card-text,
+.sec-card .card-link {
+    background-color: #00C389;
+}
+
+.sec-card h2 {
+    font-size: 18px;
+}
+
+.third-card .card-text,
+.third-card .card-link {
+    background-color: #FDDA24;
+}
+
+.third-card h2 {
+    font-size: 18px;
+}
+
+.cards p {
+    font-size: 12px;
+}
+
+.card-link {
+    height: 40px;
+    padding: auto;
+    padding-left: 20px;
+}
+.card-link a {
+    border: 1px solid #333;
+    border-radius: 20px;
+    padding: 10px;
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
